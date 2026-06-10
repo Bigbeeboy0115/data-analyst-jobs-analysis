@@ -1,0 +1,35 @@
+项目名称：数据分析岗位招聘需求分析
+
+项目背景：
+本项目基于 2253 条 Data Analyst 岗位数据，对数据分析岗位的技能需求、地区分布、行业分布、薪资水平和岗位类别进行分析，目的是刻画数据分析/BI方向的市场需求与核心能力结构。
+项目名称：数据分析岗位招聘需求分析
+
+项目背景：
+本项目基于 2253 条 Data Analyst 岗位数据，对数据分析岗位的技能需求、地区分布、行业分布、薪资水平和岗位类别进行分析，目的是了解数据分析 / BI 岗位的核心能力要求，并形成可量化的岗位市场画像。
+
+数据规模：
+2253 条岗位数据，16 个原始字段。
+
+使用工具：
+Python、Pandas、Matplotlib、JupyterLab
+
+主要分析内容：
+1. 技能需求分析
+2. 地区岗位分布分析
+3. 行业岗位分布分析
+4. 薪资分布分析
+5. 技能与薪资关系分析
+6. 岗位类别与薪资分析
+
+核心发现：
+1. SQL 是 Data Analyst 岗位中出现频率最高的技能，共出现 1363 次，占全部岗位约 60.5%。
+2. Communication 出现 1322 次，说明数据分析岗位不仅要求技术能力，也非常重视沟通表达能力。
+3. Excel、Statistics、Python、Tableau 也是高频技能，其中 Python 和 Tableau 对应岗位平均薪资高于整体平均水平。
+4. 岗位主要集中在 New York、Chicago、San Francisco 等城市，说明数据分析岗位具有明显的地区集中现象。
+5. IT Services、Staffing & Outsourcing、Health Care Services & Hospitals 是岗位需求较多的行业。
+6. Data Analyst 岗位平均薪资约为 72.1K 美元/年，中位数约为 69K 美元/年。
+7. General Data Analyst 是数量最多的岗位类别，共 1127 条；Senior Data Analyst 平均薪资高于普通岗位，说明经验要求较高的岗位通常具备更高薪资水平。
+8. Spark、Python、Tableau 等技能在本数据集中对应较高薪资溢价，但 Spark 样本量较少，结论仅作参考。
+
+项目结论：
+从岗位能力画像看，SQL、Excel、Python、Tableau 和基础统计知识是高频核心技能。同时，沟通能力和结果表达能力也是数据分析岗位的重要要求。
